@@ -1,0 +1,291 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    background: #FFFFFF;
+}
+  
+main{
+    width: 1350px;
+    background: #FFF;
+    margin: 0 auto;
+}
+
+.main2{
+    width: 1350px;
+    background: #F4F4F4;
+    margin: 0 auto;
+}
+
+
+/* Cabecera Pagina */  
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #24282b;
+    color: #FFF;
+    border-bottom: 5px solid #1593d4;
+    padding: 0 50px;
+    height: 100px;
+    font-family: 'Inter', sans-serif;
+}
+  
+span{
+    color: #1593d4;
+    font-family: 'Inter', sans-serif;
+}
+
+.activo{
+    color: #1593d4;
+}
+  
+nav{
+    width: 40%;
+}
+  
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+nav ul li a:hover{
+    color: #1593d4;
+}
+
+.textologo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(/images/cabecera.jpg) 0 -200px;
+    background-size: cover;
+    height: 400px;
+    padding: 0 50px;
+    color: #FFF;
+}
+
+.textologo h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.textologo p{
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* Session Suscripcion */
+.suscripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #24282b;
+    padding: 0 50px;
+    height: 100px;
+    color: #FFF;
+}
+
+.suscripcion h4{
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+.suscripcion input{
+    padding: 10px 80px 10px 10px;
+}
+
+.suscripcion .input2{
+    padding: 10px; 
+}
+
+.suscripcion input[type=button]{
+    background-color: #E8491D;
+    color: #FFF;
+    border: 1px solid #E8491D;
+}
+
+.suscripcion input[type=button]:hover{
+    background-color: #FFF;
+    color: #E8491D;
+    border: 1px solid #FFF;
+}
+
+
+/* imagenes lenguajes Index*/
+.imagenes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+    height: 350px;
+    background-color: #F4F4F4;
+}
+
+.imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 90%;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.imgs img{
+    width:35%;
+}
+
+/* Diseño Nosotros */
+.nosotros{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 0 50px;
+    gap: 30px;
+}
+
+.n-texto{
+    width: 65%;
+}
+
+.n-texto p{
+    margin: 10px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.n-texto h2{
+    margin: 10px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.color-texto{
+    background: #35424a;
+    color: #FFF;
+    padding: 20px;
+}
+
+.n-texto img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.hacemos{
+    margin: 20px 0;
+    background: #35424a;
+    color: #FFF;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Diseño Servicios */
+.servicios{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 0 50px;
+    gap: 30px;
+}
+
+.hacemos{
+    margin: 20px 0;
+    background: #35424a;
+    color: #FFF;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.cuadros{
+    background: #E6E6E6;
+    border:1px solid #CCC;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Diseño Contacto */
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 0 50px;
+    gap: 30px;
+}
+
+.formulario input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.formulario textarea{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.formulario button{
+    background: #E8491D;
+    color: #FFF;
+    padding: 10px;
+    width: 103%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.contenido-textos{
+    width: 65%;
+}
+  
+.contenido-textos p{
+    margin: 10px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.contenido-textos h2{
+    margin: 10px 0;
+    font-family: 'Inter', sans-serif;
+}
+  
+.contenido-textos img{
+    width: 100%;
+    margin: 10px 0;
+}
+  
+.contenedor-hacemos{
+    width: 35%;
+}
+  
+.contenedor-hacemos img{
+    width: 100%;
+}
+  
+
+/* Pie de Pagina */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: #1593d4;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+}
